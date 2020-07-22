@@ -30,4 +30,4 @@ for ( i in 1:k ){
 }
 
 plot(table(a))
-sd(a)
+sd(a)*sqrt(length(a)-1)/sqrt(length(a))
